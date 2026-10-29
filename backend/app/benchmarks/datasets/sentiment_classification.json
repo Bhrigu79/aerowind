@@ -1,0 +1,22 @@
+[
+  {"text": "The delivery arrived late and the box was completely crushed. Terrible service.", "label": "negative"},
+  {"text": "I absolutely love this new feature! It makes my workflow so much faster.", "label": "positive"},
+  {"text": "The item is exactly as described and fits perfectly.", "label": "positive"},
+  {"text": "I ordered a blue shirt but received a red one. Please process a return.", "label": "negative"},
+  {"text": "Customer support was extremely helpful and resolved my issue within minutes.", "label": "positive"},
+  {"text": "The app crashes every time I try to upload a photo. Very frustrating.", "label": "negative"},
+  {"text": "Great value for the money. I would definitely buy this again.", "label": "positive"},
+  {"text": "The food arrived cold and was completely tasteless.", "label": "negative"},
+  {"text": "Setup was incredibly easy, I was up and running in under five minutes.", "label": "positive"},
+  {"text": "The battery drains way too fast. It barely lasts half a day.", "label": "negative"},
+  {"text": "Five stars! The build quality is exceptional and feels very premium.", "label": "positive"},
+  {"text": "I was charged twice for the same subscription.", "label": "negative"},
+  {"text": "The user interface is clean, intuitive, and modern.", "label": "positive"},
+  {"text": "Shipping took three weeks instead of the promised two days.", "label": "negative"},
+  {"text": "Highly recommend this tool for anyone doing data analysis.", "label": "positive"},
+  {"text": "The material feels cheap and scratchy. Not worth the price.", "label": "negative"},
+  {"text": "My kids absolutely adore this toy, it keeps them entertained for hours.", "label": "positive"},
+  {"text": "The instructions were confusing and missing crucial steps.", "label": "negative"},
+  {"text": "Excellent noise cancellation, perfect for my commute.", "label": "positive"},
+  {"text": "The Bluetooth connection keeps dropping randomly.", "label": "negative"}
+]

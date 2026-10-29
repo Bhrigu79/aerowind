@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-aerowind}
+      # Set POSTGRES_PASSWORD in your .env (see backend/.env.example). The
+      # default below is intentionally a local-dev placeholder — never use it
+      # in production.
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-aerowind}
+      POSTGRES_DB: ${POSTGRES_DB:-aerowind}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aerowind"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

@@ -1,0 +1,95 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+secrets/
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+.nuxt/
+.output/
+.cache/
+dist/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+.docker/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Test coverage ─────────────────────────────────────────────────────────────
+.coverage
+htmlcov/
+coverage.xml
+
+# ── Experiment artifacts (use object storage) ─────────────────────────────────
+artifacts/
+sandbox_workspaces/
+
+# ── Scratch / local development scripts (not for public release) ──────────────
+# These are one-off dev/debug scripts that should not be published.
+# Remove entries below if you intentionally want to publish them.
+audit_report.txt
+audit_run.py
+backend/extract.txt
+backend/inspect_nebius.py
+backend/mock_phase16.py
+
+# ── Nested Git repository (frontend has its own .git) ────────────────────────
+# The frontend/ directory was bootstrapped with Create Next App and contains
+# its own .git history. Git will treat it as a submodule/gitlink unless the
+# nested .git is removed before initialising the parent repo.
+# See PUBLISHING.md for the safe steps to handle this.
+frontend/.git/
